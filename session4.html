@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>DOM in Jvascript</title>
+        <style>
+
+            .heading{
+                background-color: rgb(208, 169, 169);
+            }
+            #idl{
+                color: rgb(127, 223, 223);
+            }
+            .btn{
+                background-color: rgb(151, 133, 133);
+            }
+            .btn:hover{
+                background-color: rgb(93, 202, 166);
+            }
+            .color{
+                color: blue;
+            }
+        </style>
+    </head>
+>
+    <body>
+        <h2 class="heading">GOOD MORNING!!</h2>
+        <h3 id="idl">heading-1</h3>   
+        <button class="btn" onclick="greet()">Greet Me!!</button>
+         <button class="color" onclick="makeColorChange()">red</button> 
+        <script>
+           document.querySelector(".heading").innerHTML ="WELCOME"
+            console.log(val)
+           // document.method.property
+            function greet(){
+                document.querySelector(".btn").innerText="Jayant";
+                function makeColorChange(){
+                    document.querySelector(".color").style.color ="red";
+
+                }
+            }
+            
+        </script>
+    </body>
+</html>
